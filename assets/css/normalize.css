@@ -60,7 +60,29 @@ button{
     font-weight: 600;
     color: #5671a6;
     cursor: pointer;
+    transition: 0.5s;
 }
 a{
 
+}
+.btn-demo {
+    background: none;
+}
+.btn-contact {
+    background: #5671a6;
+    color: white;
+}
+.btn-demo:hover {
+    background: #5671a6;
+    color: white;
+}
+.btn-demo:active{
+    transform: scale(90%);
+}
+.btn-contact:active{
+    transform: scale(90%);
+}
+.btn-contact:hover {
+    color: #5671a6;
+    background: none;
 }
