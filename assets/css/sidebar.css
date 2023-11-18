@@ -1,0 +1,16 @@
+.sidebar {
+    width: 271px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 20px;
+}
+.sidebar *{
+    text-align: center;
+}
+.sidebar p{
+    text-align: center;
+}
