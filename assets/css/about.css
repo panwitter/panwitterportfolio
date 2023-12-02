@@ -1,0 +1,18 @@
+.about_titles {
+    width: 593px;
+}
+
+.about-card-item {
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-card-item footer {
+    display: flex;
+    justify-content: space-between;
+}

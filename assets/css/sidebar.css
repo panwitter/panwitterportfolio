@@ -1,5 +1,6 @@
 .sidebar {
     width: 271px;
+    height: 650px;
 
     display: flex;
     flex-direction: column;
@@ -7,10 +8,13 @@
     align-items: center;
     justify-content: space-around;
     padding: 50px 20px;
+    border-right: 1px solid #6D8093;
 }
-.sidebar *{
+
+.sidebar * {
     text-align: center;
 }
-.sidebar p{
+
+.sidebar p {
     text-align: center;
 }

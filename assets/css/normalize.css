@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html,
 body {
     width: 100%;
@@ -19,40 +20,47 @@ h6 {
     font-style: normal;
     line-height: normal;
 }
-h1{
+
+h1 {
     color: #5671A6;
     font-size: 36px;
     font-weight: 600;
 }
-h2{
+
+h2 {
     color: #5671A6;
     font-size: 32px;
     font-weight: 600;
 }
-h3{
+
+h3 {
     color: #5671A6;
     font-size: 16px;
     font-weight: 600;
 }
-h4{
+
+h4 {
     color: #383838;
-    font-size: 16px;;
+    font-size: 16px;
+    ;
     font-weight: 600;
 }
-h5{
+
+h5 {
     color: #383838;
     font-size: 14px;
     font-weight: 500;
 }
-h6{
+
+h6 {
     color: #616161;
     font-size: 12px;
     font-weight: 400;
 }
-p{
 
-}
-button{
+p {}
+
+button {
     padding: 10px 40px;
     border-radius: 50px;
     border: 2px solid #5671A6;
@@ -62,28 +70,37 @@ button{
     cursor: pointer;
     transition: 0.5s;
 }
-a{
 
-}
+a {}
+
 .btn-demo {
     background: none;
 }
+
 .btn-contact {
     background: #5671a6;
     color: white;
 }
+
 .btn-demo:hover {
     background: #5671a6;
     color: white;
 }
-.btn-demo:active{
+
+.btn-demo:active {
     transform: scale(90%);
 }
-.btn-contact:active{
+
+.btn-contact:active {
     transform: scale(90%);
 }
+
 .btn-contact:hover {
     color: #5671a6;
     background: none;
 }
 
+.main {
+    display: flex;
+    flex-grow: 1;
+}

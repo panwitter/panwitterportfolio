@@ -1,28 +1,32 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>картон</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body class="wrapper">
-    <header class="header">
-      <h1>panwitter</h1>
-      <nav class="navigation">
-        <div class="navigation-menu">
-          <h3>ABOUT</h3>
-          <h3>SKILLS</h3>
-          <h3>SERVICES</h3>
-          <h3>PORTFOLIO</h3>
-        </div>
-        <label for="switch" class="light-switch">
-          <input type="checkbox" id="switch">
-          <div for="switch" class="switcher"></div>
-        </label>
-      </nav>
-    </header>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>картон</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+</head>
+
+<body class="wrapper">
+  <header class="header">
+    <h1>panwitter</h1>
+    <nav class="navigation">
+      <div class="navigation-menu">
+        <h3>ABOUT</h3>
+        <h3>SKILLS</h3>
+        <h3>SERVICES</h3>
+        <h3>PORTFOLIO</h3>
+      </div>
+      <label for="switch" class="light-switch">
+        <input type="checkbox" id="switch">
+        <div for="switch" class="switcher"></div>
+      </label>
+    </nav>
+  </header>
+  <main class="main">
     <aside class="sidebar">
+
       <div class="sidebar-profile">
         <img src="./assets/img/profileicon.svg" alt="" />
       </div>
@@ -39,5 +43,41 @@
         <button class="btn-contact">Contact Me</button>
       </div>
     </aside>
-  </body>
+    <main class="page-about">
+      <section class="page-about_about">
+        <div class="about_titles">
+          <h2>About</h2>
+          <p>Web developer, with extensive knowledge and years of experience, working in web technologies and UI/UX
+            design,
+            delivering quality work.</p>
+          <div class="about_card-list">
+            <article class="about-card-item">
+              <img src="./assets/img/fire.svg" alt="">
+              <footer class="about-card-item_footer">
+                <h4>Years experience</h4>
+                <h1>6</h1>
+              </footer>
+            </article>
+            <article class="about-card-item">
+              <img src="./assets/img/projects.svg" alt="">
+              <footer class="about-card-item_footer">
+                <h4>Completed projects</h4>
+                <h1>5</h1>
+              </footer>
+            </article>
+            <article class="about-card-item">
+              <img src="./assets/img/home.svg" alt="">
+              <footer class="about-card-item_footer">
+                <h4>Companies worked</h4>
+                <h1>4</h1>
+              </footer>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </main>
+</body>
+
 </html>
