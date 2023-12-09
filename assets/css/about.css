@@ -1,7 +1,12 @@
+.page-about {
+    padding: 50px 20x;
+}
 .about_titles {
     width: 593px;
 }
-
+.about_titles h2 {
+    margin-bottom: 10px;
+}
 .about-card-item {
     width: 150px;
     height: 150px;
@@ -15,4 +20,9 @@
 .about-card-item footer {
     display: flex;
     justify-content: space-between;
+}
+.about_card-list {
+    display: flex;
+    gap: 20px;
+    margin-top: 40px;
 }
