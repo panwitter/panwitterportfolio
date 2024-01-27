@@ -36,6 +36,7 @@
 .page-about__btn {
   display: flex;
   gap: 8px;
+  cursor: pointer;
 }
 
 .page-about_profile-list {
