@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./pon.css">
+</head>
+<body>
+    <div class="header">
+        <img class="omor" src="./omor.png" alt="">
+        <h5>главная</h5>
+        <h5>новости</h5>
+        <h5>контакты</h5>
+        <dialog id="modal">
+            <h1>модальное окно</h1>
+            <p>чтоо арбузики</p>
+            <button id="close">закрыть окно</button>
+        </dialog>
+        <button id="open">открыть окно</button>
+    <div class="cardnews">
+        
+    </div>
+</body>
+<script>
+    let modal = document.getElementById("modal");
+    let open = document.getElementById("open");
+    let close = document.getElementById("close");
+
+    open.onclick = () => {
+        modal.showModal();
+    }
+
+    close.onclick = () => {
+        modal.close();
+    }
+</script>
+</html>
