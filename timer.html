@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .flex {
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flex">
+      <h1 id="hours">00</h1>
+      <h1>:</h1>
+      <h1 id="minutes">00</h1>
+      <h1>:</h1>
+      <h1 id="seconds">00</h1>
+    </div>
+  </body>
+  <script>
+    let hours = document.getElementById("hours");
+    let minutes = document.getElementById("minutes");
+    let seconds = document.getElementById("seconds");
+
+    let sec = 10;
+    let min = 1;
+    let hour = 0;
+
+    const timer = setInterval(() => {
+      if (hour < 0) {
+        clearInterval(timer);
+      }
+      minutes.innerText = min < 10 ? "0" + min : min;
+      hours.innerText = hour < 10 ? "0" + hour : hour;
+      seconds.innerText = sec < 10 ? "0" + sec : sec;
+      if (sec < 0) {
+        min -= 1;
+        sec = 59;
+        if (min < 0) {
+          hour -= 1;
+          min = 60;
+        }
+      }
+
+      sec = sec - 1;
+    }, 100);
+  </script>
+</html>
