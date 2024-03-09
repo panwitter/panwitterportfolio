@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./pon.css" />
+  </head>
+  <body>
+    <div class="switch">
+      <label for="switch" class="light-switch">
+        <button id="switch">пон</button>
+        <div for="switch" class="switcher"></div>
+      </label>
+    </div>
+  </body>
+  <script>
+    let switch1 = document.getElementById("switch");
+    switch1.onclick = () => {
+      document.body.style.background = "black";
+      if ((document.body.style.background = "black")) {
+        switch1.onclick = () => {
+          document.body.style.background = "white";
+        };
+      } else {
+        document.body.style.background = "black";
+      }
+    };
+  </script>
+</html>
