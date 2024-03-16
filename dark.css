@@ -1,0 +1,21 @@
+.switcher {
+  display: block;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid black;
+  position: relative;
+}
+.switcher span {
+  display: block;
+  transition: 0.5s;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  left: 0;
+  background-color: black;
+}
+#switch:checked ~ .switcher span {
+  left: 70px;
+}
