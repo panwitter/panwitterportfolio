@@ -1,0 +1,18 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    border: 2px solid ;
+    box-sizing:border-box ;
+}
+.box {
+    /*background-color: bisque;*/
+    /*display: flex;*/
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+
+}
+.--active {
+    background-color: blueviolet;
+}
